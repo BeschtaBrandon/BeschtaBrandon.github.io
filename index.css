@@ -1,6 +1,8 @@
-body { 
-  padding-top: 70px; 
+body {
+  padding-top: 70px;
+  background-color: #777
 }
+
 #main {
-  text-align: center;
+  text-align: center;;
 }
