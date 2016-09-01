@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
 
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="index.js" type="text/javascript"></script>
   </head>
   <body>
 
@@ -26,11 +27,12 @@
         </div>
       </nav>
 
+<a href="Resume.pdf" onclick="success()" download>
       <button type="button" class="btn btn-default btn-lg">
-  <a href="Resume.pdf" download>  <span class="glyphicon glyphicon-save" aria-hidden="true">Download Resume</span>
-</a>
+        <span class="glyphicon glyphicon-save" aria-hidden="true"></span>Download Resume
 </button>
-
+  </a>
+      <span id="downloadBtn"></span>
       <div id="main">Hello, Experiece!</div>
     </div>
   </body>
