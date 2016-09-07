@@ -1,0 +1,45 @@
+﻿Brandon Beschta
+Software Engineer | Web Developer | Tech Enthusiast  
+	109 N Brooks St  #117
+Madison, Wisconsin 53715
+414-852-1027
+beschtabra2@gmail.com
+	EXPERIENCE
+Maverick Software Consulting, Madison, WI
+March 2016 - PRESENT
+Worked with Thomson Reuters developing web pages for a production environment utilized by 400+ testers at Thomson Reuters using Java and Groovy
+Used Model-View-Controller (MVC) architectural pattern
+EDUCATION
+University of Wisconsin - Madison
+September 2014 - Present
+
+
+     Currently pursuing a Master’s in Computer Sciences 
+Current GPA 3.24 / 4.00 
+Homestead High School, Mequon, WI 
+September 2010 - May 2013
+PROJECTS 
+
+
+Website - http://pages.cs.wisc.edu~/bbeschta/
+Raspberry Pi - Setup my own computer
+
+
+
+
+	SKILLS
+
+
+SVN/Apache
+Linux
+Github
+iOS
+Java/C#/C
+JavaScript/CSS/HTML
+Python
+Ruby / Rails
+Groovy
+LANGUAGES
+Spanish 
+English - Preferred
+Mandarin
