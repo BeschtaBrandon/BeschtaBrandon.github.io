@@ -1,44 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8">
+  <title>Brandon Beschta</title>
+  <meta name="description" content="" />
+  <meta name="fragment" content="!" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="Description" content="Brandon Beschta">
+  <meta name="Keywords" content="Brandon Beschta">
+  <link rel="shortcut icon" type="image/png" href="/img/code-break.png" />
+  <link href='/assets/css/index.css?v0.01' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" />
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="/index.js"></script>
-  </head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107835514-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  <body>
-    <div class='container'>
-      <nav class="navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Brandon Beschta</a>
-          </div>
-
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="./projects.html">Projects</a></li>
-              <li><a href="./education.html">Education</a></li>
-              <li><a href="./experience.html">Experience</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="img-circle" src="./me.jpg" alt="Myself" style="width:304px;height:298px";>
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">
-            Hello and welcome! I am a senior at the University of Wisconsin-Madison majoring in Computer Science (expected May 2018). My passions consist of exploring the complete gamet of computers, and more interestingly their impact on human beings as these advances mold the foundation for the future.
-          </h4>
-        </div>
-      </div>
-    </div>
-  </body>
+    gtag('config', 'UA-107835514-1');
+  </script>
+  <style>
+  body.loading {margin: 0px; width: 100vw; height: 100vh;
+    background-image: radial-gradient(circle at 50% 15%, #fff, #fff 30%, #ccc);
+  }
+  body.loading #content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+  }
+  body.loading #logo {
+    position: absolute; display: block; width: 140px; height: 140px;
+    top: calc(50vh - 70px); left: calc(50vw - 70px);
+  }
+  div.t {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 10vw;
+    height: 10vh;
+    background-color: #e2e2e2;
+  }
+  div.t.on {
+    -webkit-animation: pulse 3s infinite linear alternate;
+    -moz-animation: pulse 3s infinite linear alternate;
+    animation: pulse 3s infinite linear alternate;
+  }
+  div.t.on:hover {
+    -webkit-animation: none;
+    background-color: #ccc;
+  }
+  @-webkit-keyframes pulse {
+    100% { background-color: #fff; }
+  }
+  @-moz-keyframes pulse {
+    100% { background-color: #fff; }
+  }
+  @keyframes pulse {
+    100% { background-color: #fff; }
+  }
+  </style>
+</head>
+<body class="loading">
+  <div id="content">
+    <svg version="1.1" viewBox="0 0 48 48" width="24px" height="24px" role="img" id="logo" aria-label="brand-grommet-outline"><path fill="#865CD6" fill-rule="evenodd" d="M24,44.5 C35.3218374,44.5 44.5,35.3218374 44.5,24 C44.5,12.6781626 35.3218374,3.5 24,3.5 C12.6781626,3.5 3.5,12.6781626 3.5,24 C3.5,35.3218374 12.6781626,44.5 24,44.5 L24,44.5 Z M24,39.5 C15.4395864,39.5 8.5,32.5604136 8.5,24 C8.5,15.4395864 15.4395864,8.5 24,8.5 C32.5604136,8.5 39.5,15.4395864 39.5,24 C39.5,32.5604136 32.5604136,39.5 24,39.5 L24,39.5 Z" stroke="none"></path></svg>
+    <script>
+    var c = document.getElementById("content");
+    for (var i = 0; i < 100; i += 1) {
+      c.insertAdjacentHTML('beforeend', '<div class="t off"></div>');
+    }
+    var timer = setInterval(function () {
+      var again = false;
+      if (document.body.classList.contains('loading')) {
+        var ts = c.querySelectorAll('div.t.off');
+        if (ts.length > 0) {
+          var index = Math.floor(Math.random() * ts.length);
+          ts[index].classList.remove('off');
+          ts[index].classList.add('on');
+          if (ts.length > 1) {
+            again = true;
+          }
+        }
+      }
+      if (! again) {
+        clearInterval(timer);
+      }
+    }, 100)
+    </script>
+  </div>
+  <script async src="/index.js"></script>
+</body>
 </html>
