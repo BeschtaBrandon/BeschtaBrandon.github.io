@@ -1,6 +1,6 @@
-Playing around with react-bootstrap components.
+Personal website created with React
 
-Check it out at https://arcane-headland-80607.herokuapp.com/
+Check it out at https://beschtabrandon.github.io/
 
 ### Development
 
@@ -9,4 +9,4 @@ Run yarn, and yarn start to develop locally.
 
 ### Deployment
 
-Deployed using Heroku CLI.
+Using [GitHub Pages](https://pages.github.com/)
