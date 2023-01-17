@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^5.1.0",
+    "bootstrap": "^5.2.0",
     "classnames": "^2.2.6",
     "i18next": "^19.9.0",
     "moment": "^2.23.0",
     "node": "^14.13.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.0.0-beta.6",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^16.7.0",
     "react-i18next": "^11.8.8",
     "react-router-dom": "^4.3.1",
@@ -36,5 +36,6 @@
   "main": "index.js",
   "author": "BeschtaBrandon <blbeschta@wisc.edu>",
   "license": "MIT",
-  "homepage": "https://beschtabrandon.github.io/"
+  "homepage": "https://beschtabrandon.github.io/",
+  "devDependencies": {}
 }
