@@ -1,0 +1,15 @@
+img {
+  height: 72px;
+  width: 72px;
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    height: 96px;
+    width: 96px;
+  }
+}
+
+.fa-newspaper {
+  margin-left: 10px;
+}
