@@ -1,0 +1,42 @@
+.news-page {
+  .media {
+    display: flex;
+  }
+  .list-group-item {
+    margin-top: 1.2rem;
+    text-align: left;
+    align-items: center;
+
+    &:last-child {
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    height: 7rem;
+    width: 8.3rem;
+  }
+
+  .media-heading {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .view-more {
+    cursor: pointer;
+
+    &:hover {
+      color: #666;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .news-page {
+    img {
+      height: 6.2rem;
+      width: 5.1rem;
+    }
+  }
+}

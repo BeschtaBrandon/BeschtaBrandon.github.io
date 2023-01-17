@@ -1,0 +1,20 @@
+{
+  "home": {
+    "header": "Explore the world's boundaries",
+    "intro-paragraph": "Currently working as a software engineer as of {{time}}. Always eager to learn new web technologies and advance my software skills. Work best when surrounded by my peers and find immense benefit in collaborating with other engineers. Also, thrive in a company who encourages their employees to try something new and adapt to this ever-changing world.",
+    "main-paragraph": "You have the ability to control your reaction for every event that takes place in your life. That is why life is what you make out of it. Time on this world is precious, so try and dedicate each day into making memories that you and others may cherish forever."
+  },
+  "professional": {
+    "experiences": "Professional Experiences",
+    "education": "Prior to starting my professional career, I studied Computer Sciences for four years at the University of Wisconsin - Madison. During that time, I was exposed to a variety of programming languages such as Assembly, C, C++, Java and PHP. Additionally, learned the importance of data structures, networks, memory mangement, and database mangement systems."
+  },
+  "news": {
+    "header": "Latest News"
+  },
+  "contact": "Contact",
+  "contact-me": "Contact Me",
+  "feel-free": "Plese feel free to reach out, I'd love to hear from you!",
+  "linkedIn": "LinkedIn",
+  "facebook": "Facebook",
+  "email": "Email"
+}

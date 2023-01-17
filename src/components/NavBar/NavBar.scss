@@ -1,0 +1,25 @@
+@import "../../shared/stylesheets/variables";
+
+.navbar {
+  border-radius: 4.25%;
+  i {
+    &:hover {
+      color: $sand-orange;
+    }
+  }
+  .nav-link {
+    font-weight: $medium-heavy;
+    &:hover {
+      background: $sand-orange;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    .float-right {
+      display: flex;
+      margin-left: 35%;
+    }
+  }
+}

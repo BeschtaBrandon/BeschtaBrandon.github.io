@@ -1,0 +1,42 @@
+@import "../../shared/stylesheets/variables";
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 2.6rem;
+  margin: 0 1rem;
+  .resource-card {
+    background: #efefef;
+    border: 1px solid $dark-grey-1;
+    box-shadow: 2.2px 3.2px #ececec;
+    border-radius: 5px;
+    .resource-content {
+      margin-bottom: 1rem;
+      ul {
+        list-style: none;
+        li {
+          margin-bottom: 0.175rem;
+
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm) {
+  .main {
+    grid-template-columns: 1fr;
+    .resource-card {
+      &:last-of-type {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

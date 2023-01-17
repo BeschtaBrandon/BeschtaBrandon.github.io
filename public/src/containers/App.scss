@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+  margin: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

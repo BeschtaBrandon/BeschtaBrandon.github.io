@@ -1,0 +1,61 @@
+// home-content
+.home-content {
+  .home-header {
+    i:first-of-type {
+      margin-left: 0.45rem;
+    }
+  }
+  img {
+    margin-top: 55%;
+    min-width: 120px;
+  }
+}
+
+// Skills List
+.list-group {
+  p {
+    margin-top: 9%;
+  }
+
+  .list-group-item.active {
+    background: #456fb2;
+    color: #e6ebf4;
+  }
+
+  .list-group-item {
+    color: #304d7c;
+    i {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-page {
+    margin-top: 2%;
+
+    .self-portrait {
+      margin: 15px 0px 0px 0px !important;
+    }
+
+    .img-fluid {
+      margin: 0px 0px 15px 25px;
+      width: 350px;
+    }
+
+    .tech {
+      margin-top: 20px;
+    }
+  }
+
+  .home-content {
+    background-color: #bdc3c7;
+    align-items: center;
+
+    .lead {
+      margin: 2%;
+      font-weight: 480;
+    }
+  }
+}

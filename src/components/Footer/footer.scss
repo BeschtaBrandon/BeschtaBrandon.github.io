@@ -1,0 +1,15 @@
+footer {
+  ul.list-inline {
+    margin-bottom: 6px;
+  }
+
+  li.list-inline-item:last-child {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  span:first-of-type {
+    padding-bottom: 15px;
+  }
+}
