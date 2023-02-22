@@ -24,30 +24,30 @@ const News = () => {
     "fa-chevron-up": viewMore
   });
 
-  useEffect(() => {
-    fetch(`http://newsapi.org/v2/top-headlines?country=us`, {
-      method: "GET",
-      mode: "cors",
-      headers: {
-        "X-Api-Key": currentState.apiCode
-      }
-    })
-      .then(res => res.json())
-      .then(
-        result => {
-          setCurrentState({
-            isLoaded: true,
-            articles: result.articles
-          });
-        },
-        error => {
-          setCurrentState({
-            isLoaded: true,
-            error
-          });
-        }
-      );
-  }, []);
+  // useEffect(() => {
+  //   fetch(`https://newsapi.org/v2/top-headlines?country=us`, {
+  //     method: "GET",
+  //     mode: "cors",
+  //     headers: {
+  //       "X-Api-Key": currentState.apiCode
+  //     }
+  //   })
+  //     .then(res => res.json())
+  //     .then(
+  //       result => {
+  //         setCurrentState({
+  //           isLoaded: true,
+  //           articles: result.articles
+  //         });
+  //       },
+  //       error => {
+  //         setCurrentState({
+  //           isLoaded: true,
+  //           error
+  //         });
+  //       }
+  //     );
+  // }, []);
 
   //
   // useEffect(() => {

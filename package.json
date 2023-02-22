@@ -36,5 +36,8 @@
   "main": "index.js",
   "author": "BeschtaBrandon <blbeschta@wisc.edu>",
   "license": "MIT",
-  "homepage": "https://beschtabrandon.github.io/"
+  "homepage": "https://beschtabrandon.github.io/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
