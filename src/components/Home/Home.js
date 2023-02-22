@@ -5,8 +5,6 @@ import { useTranslation } from "react-i18next";
 import "./Home.scss";
 import { getCurrentTime } from "../../shared/time_utils";
 import { programmingLanguageList, techList } from "./constants";
-import nasaPhoto from "../../images/outer_space.jpg";
-import portrait from "../../images/portrait.jpg";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -24,7 +22,11 @@ const Home = () => {
           </div>
         </Col>
         <Col xs={4} className="col-md-push-1">
-          <Image className="img-fluid self-portrait" src={portrait} thumbnail />
+          <Image
+            className="img-fluid self-portrait"
+            src="images/portrait.jpg"
+            thumbnail
+          />
         </Col>
       </Row>
     );
@@ -84,7 +86,7 @@ const Home = () => {
     return (
       <Row className="home-content">
         <Col xs={5} md={4}>
-          <Image className="img-fluid" src={nasaPhoto} thumbnail />
+          <Image className="img-fluid" src="images/outer_space.jpg" thumbnail />
         </Col>
         <Col xs={7} md={8}>
           {renderHomeHeader()}
