@@ -1,327 +1,65 @@
-export const OLDER_ARTICLES = [
-  {
-    source: { id: null, name: "CNET" },
-    author: "Gael Fashingbauer Cooper",
-    title:
-      "Lady Gaga's dog walker shot, her French bulldogs stolen: What happened? - CNET",
-    description:
-      "As Gaga offers a $500,000 reward for her dogs' return, extremely unnerving video captures the violent attack Wednesday night in Hollywood, California.",
-    url:
-      "https://www.cnet.com/news/lady-gagas-dog-walker-shot-her-french-bulldogs-stolen-everything-we-know/",
-    urlToImage:
-      "https://cnet1.cbsistatic.com/img/bnu_OI4E9ZRTiRqgUd0SgWOmvmo=/1200x630/center/top/2021/02/26/f5e02205-3dfe-49f7-a8e4-2decfa343514/gagadogs.jpg",
-    publishedAt: "2021-02-26T03:20:00Z",
-    content:
-      "Lady Gaga, her dog walker and her beloved French bulldogs have made headlines in the last 24 hours. Haven't been following the disturbing saga? Here's what we know so far.  \r\nWhat happened to Lady Ga… [+3706 chars]"
-  },
-  {
-    source: { id: "usa-today", name: "USA Today" },
-    author: "Jeanine Santucci",
-    title:
-      "Marjorie Taylor Greene faces backlash after attacking congresswoman with transgender daughter - USA TODAY",
-    description:
-      "Marjorie Taylor Greene drew backlash from lawmakers of both parties who said a video she posted was cruel toward transgender Americans.",
-    url:
-      "https://www.usatoday.com/story/news/politics/2021/02/25/marjorie-taylor-greene-criticized-anti-transgender-sign-tweets/6822977002/",
-    urlToImage:
-      "https://www.gannett-cdn.com/presto/2021/01/28/USAT/cbaa4428-4e13-4b68-9785-53d87a1d410c-Greene.jpg?crop=4149,2334,x1,y412&width=3200&height=1680&fit=bounds",
-    publishedAt: "2021-02-26T02:47:44Z",
-    content:
-      "U.S. Rep. Marjorie Taylor Greene is under fire following a Twitter feud with Democratic Rep. Marie Newman over LGBTQ rights.\r\nUSA TODAY\r\nWASHINGTON  Rep. Marjorie Taylor Greene, the freshman congress… [+4530 chars]"
-  },
-  {
-    source: { id: null, name: "Rolling Stone" },
-    author: "Brittany Spanos",
-    title:
-      "Billie Eilish’s New Doc ‘The World’s a Little Blurry’: 8 Things We Learned - Rolling Stone",
-    description:
-      "The time the singer didn't recognize Orlando Bloom backstage, how touring has impacted her health, and other takeaways from R.J. Cutler's intimate new AppleTV doc",
-    url:
-      "https://www.rollingstone.com/music/music-features/billie-eilish-documentary-worlds-a-little-blurry-things-we-learned-1132927/",
-    urlToImage:
-      "https://www.rollingstone.com/wp-content/uploads/2021/02/Billie_Eilish_0106c.jpg",
-    publishedAt: "2021-02-26T02:30:00Z",
-    content:
-      "In AppleTV’s new documentary Billie Eilish: The World’s a Little Blurry, director R.J. Cutler captures the type of chaotic, thrilling year in the life of a pop star that few filmmakers get to access.… [+6189 chars]"
-  },
-  {
-    source: { id: null, name: "NBCSports.com" },
-    author: null,
-    title: "Russell Wilson 'would happily' come to Bears - NBC Sports Chicago",
-    description:
-      "Seahawks quarterback Russell Wilson would reportedly be happy to come join the Bears.",
-    url:
-      "https://www.nbcsports.com/chicago/bears/bears-rumors-russell-wilson-would-happily-accept-his-walking-papers",
-    urlToImage:
-      "https://www.nbcsports.com/sites/rsnunited/files/styles/metatags_opengraph/public/article/hero/Wilson_R_USATSI_15339563.jpg",
-    publishedAt: "2021-02-26T02:12:07Z",
-    content:
-      'Russell Wilson throwing TDs at Soldier Field?\r\nApparently the Seahawks quarterback would happily join the Chicago Bears if Ryan Pace worked out a trade Seattle liked.\r\n"If the Bears struck a deal wit… [+983 chars]'
-  },
-  {
-    source: { id: "usa-today", name: "USA Today" },
-    author: "Luke Easterling",
-    title:
-      "2021 NFL mock draft: Mel Kiper projects blockbuster trades for top QBs - The Draft Wire",
-    description:
-      "ESPN’s Mel Kiper Jr. has been doing mock drafts longer than I’ve been alive, but his latest first-round projections for the 2021 NFL draft have a wrinkle he’s never used before: T…",
-    url:
-      "https://draftwire.usatoday.com/2021/02/25/2021-nfl-mock-draft-mel-kiper-trades-zach-wilson-trey-lance-justin-fields/",
-    urlToImage:
-      "https://draftwire.usatoday.com/wp-content/uploads/sites/72/2020/12/78e5291df4db48e9a7ecc37a32f3faf5.jpg?w=1024&h=576&crop=1",
-    publishedAt: "2021-02-26T01:39:27Z",
-    content:
-      "ESPN’s Mel Kiper Jr. has been doing mock drafts longer than I’ve been alive, but his latest first-round projections for the 2021 NFL draft have a wrinkle he’s never used before: Trades.\r\nYes, Kiper’s… [+1398 chars]"
-  },
-  {
-    source: { id: "bloomberg", name: "Bloomberg" },
-    author: null,
-    title:
-      "Saudi Crown Prince Implicated in Khashoggi Murder, U.S. Finds - Bloomberg",
-    description: null,
-    url:
-      "https://www.bloomberg.com/tosv2.html?vid=&uuid=22694c20-77ee-11eb-be9f-935c3e00c000&url=L25ld3MvYXJ0aWNsZXMvMjAyMS0wMi0yNi9zYXVkaS1jcm93bi1wcmluY2UtaW1wbGljYXRlZC1pbi1raGFzaG9nZ2ktbXVyZGVyLXUtcy1maW5kcw==",
-    urlToImage: null,
-    publishedAt: "2021-02-26T01:37:00Z",
-    content:
-      "To continue, please click the box below to let us know you're not a robot."
-  },
-  {
-    source: { id: "nbc-news", name: "NBC News" },
-    author: "Dartunorro Clark",
-    title:
-      "McConnell says he would 'absolutely' support Trump as 2024 nominee - NBC News",
-    description:
-      "Senate Minority Leader Mitch McConnell, R-Ky., said Thursday in a Fox News interview he would “absolutely” support former President Donald Trump if he won the GOP’s 2024 presidential nominee.",
-    url:
-      "https://www.nbcnews.com/politics/politics-news/mcconnell-says-he-would-absolutely-support-trump-2024-nominee-n1258911",
-    urlToImage:
-      "https://media2.s-nbcnews.com/j/newscms/2021_08/3427717/201111-trump-mcconnell-jm-1856_8296db3ff75e0045d4a1b1df1bb5bb39.nbcnews-fp-1200-630.jpg",
-    publishedAt: "2021-02-26T01:36:00Z",
-    content:
-      "Senate Minority Leader Mitch McConnell, R-Ky., said Thursday he would absolutely support former President Donald Trump if he won the GOPs 2024 presidential nominee.\r\nWell theres a lot to happen betwe… [+1768 chars]"
-  },
-  {
-    source: { id: "the-wall-street-journal", name: "The Wall Street Journal" },
-    author: "Drew FitzGerald, Miriam Gottfried",
-    title: "AT&T sells part of DirecTV to buyout firm TPG - Fox Business",
-    description:
-      "Private-equity giant to pay $1.8 billion for 30% interest in new DirecTV unit",
-    url:
-      "https://www.wsj.com/articles/at-t-to-spin-off-directv-unit-in-deal-with-tpg-11614288845",
-    urlToImage: "https://images.wsj.net/im-304497/social",
-    publishedAt: "2021-02-26T01:14:16Z",
-    content:
-      "AT&amp;T Inc. agreed to sell a stake in its pay-TV unit to private-equity firm TPG and carve out the struggling business, pulling the telecom giant back from a costly wager on entertainment. \r\nThe tr… [+1017 chars]"
-  },
-  {
-    source: { id: "the-wall-street-journal", name: "The Wall Street Journal" },
-    author: "Mengqi Sun",
-    title:
-      "Cayman Islands, Morocco Placed on Terror-Financing Watch List - The Wall Street Journal",
-    description:
-      "The Financial Action Task Force has added four jurisdictions to its list of countries subject to increased monitoring",
-    url:
-      "https://www.wsj.com/articles/cayman-islands-morocco-placed-on-terror-financing-watch-list-11614301887",
-    urlToImage: "https://images.wsj.net/im-304644/social",
-    publishedAt: "2021-02-26T01:11:00Z",
-    content:
-      "Four jurisdictions, including the Cayman Islands and Morocco, will undergo increased monitoring as they face pressure from a global watchdog to address deficiencies in their anti-money-laundering eff… [+4106 chars]"
-  },
-  {
-    source: { id: null, name: "CNET" },
-    author: "Ry Crist",
-    title: "Xbox Live suffers major outage - CNET",
-    description:
-      "It's not just you -- Xbox Live players worldwide are reporting troubles logging in.",
-    url: "https://www.cnet.com/news/xbox-live-suffers-major-outage/",
-    urlToImage:
-      "https://cnet1.cbsistatic.com/img/0bQVESQ1awl-6HcLNjIhrOAhucA=/1200x630/2020/12/18/13094f9e-5893-4d3e-a609-90b1bf6e8eb2/xbox-controller-for-xbox-series-x-s-one.jpg",
-    publishedAt: "2021-02-26T01:09:00Z",
-    content:
-      "Josh Goldman/CNET\r\nXbox Live's online platform for console gamers suffered a major outage Thursday, with gamers worldwide taking to Twitter to report troubles logging in.\r\n\"We are aware that users ma… [+944 chars]"
-  },
-  {
-    source: { id: "engadget", name: "Engadget" },
-    author: "https://www.engadget.com/about/editors/igor-bonifacic",
-    title:
-      "Sony is shutting down Knack and 'The Last Guardian' developer Japan Studio - Engadget",
-    description:
-      "It looks like Sony is shuttering its oldest in-house developer.",
-    url:
-      "https://www.engadget.com/japan-studio-never-forget-knack-234822543.html",
-    urlToImage:
-      "https://s.yimg.com/uu/api/res/1.2/_zymuoyF23iQ6k2I8nHjXQ--~B/aD0xMDAxO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-02/b8050480-77b3-11eb-b7bf-fee96bcba0d3.cf.jpg",
-    publishedAt: "2021-02-26T01:05:22Z",
-    content:
-      "Sony is reportedly shutting down its oldest in-house developer. According to VGC, the company hasn't been renewing the contracts of many of the employees at Japan Studio. The developer is best known … [+2006 chars]"
-  },
-  {
-    source: { id: null, name: "NPR" },
-    author: "",
-    title:
-      "U.S. Launches Military Airstrikes Against Iranian-Backed Militants In Syria - NPR",
-    description:
-      "The Thursday strikes targeted Iranian-backed groups in eastern Syria in response to rocket attacks against Americans in Iraq.",
-    url:
-      "https://www.npr.org/2021/02/25/971611130/u-s-launches-military-airstrikes-against-iranian-militants-in-syria",
-    urlToImage:
-      "https://media.npr.org/assets/img/2021/02/25/gettyimages-1231188007_wide-41c88408d809b9fbaecd7b0b5448ebf96f9080f0.jpg?s=1400",
-    publishedAt: "2021-02-26T01:05:00Z",
-    content:
-      "\"At President Biden's direction, U.S. military forces earlier this evening conducted airstrikes against infrastructure utilized by Iranian-backed militant groups in eastern Syria. These strikes were … [+728 chars]"
-  },
-  {
-    source: { id: null, name: "New York Post" },
-    author: "Bernadette Hogan, Steven Nelson, Carl Campanile",
-    title:
-      "Leading Democratic women silent on Gov. Cuomo's sexual harassment scandal - New York Post ",
-    description:
-      "Leading female Democratic pols largely stayed silent Thursday on the sexual harassment allegations against Gov. Andrew Cuomo — even though some have been outspoken on the subject in the past. New Y…",
-    url:
-      "https://nypost.com/2021/02/25/democratic-women-silent-on-cuomos-sexual-harassment-scandal/",
-    urlToImage:
-      "https://nypost.com/wp-content/uploads/sites/2/2021/02/cuomo-13.jpg?quality=90&strip=all&w=1200",
-    publishedAt: "2021-02-26T00:56:00Z",
-    content:
-      "Leading female Democratic pols largely stayed silent Thursday on the sexual harassment allegations against Gov. Andrew Cuomo even though some have been outspoken on the subject in the past.\r\nNew York… [+2034 chars]"
-  },
-  {
-    source: { id: null, name: "New York Times" },
-    author: "Emily Cochrane",
-    title:
-      "Top Senate Official Disqualifies Minimum Wage From Stimulus Plan - The New York Times",
-    description:
-      "The parliamentarian ruled that the provision, which would gradually increase the wage to $15 an hour, violated the strict budgetary rules that limit what can be included in the package.",
-    url:
-      "https://www.nytimes.com/2021/02/25/us/politics/federal-minimum-wage.html",
-    urlToImage:
-      "https://static01.nyt.com/images/2021/02/24/us/politics/00dc-minimumwagehfo/00dc-minimumwagehfo-facebookJumbo.jpg",
-    publishedAt: "2021-02-26T00:31:25Z",
-    content:
-      "WASHINGTON Democrats suffered a critical defeat in their bid to preserve President Bidens $1.9 trillion stimulus package on Thursdayafter the Senates top rule enforcer said a plan to increase the fed… [+1293 chars]"
-  },
-  {
-    source: { id: null, name: "The Philadelphia Inquirer" },
-    author: "Anthony R. Wood",
-    title:
-      "‘Snow moon’ is coming this weekend, and it might be why you’re sleeping less - The Philadelphia Inquirer",
-    description:
-      "In the nights leading up to a full moon, study subjects slept up to 46 to 58 minutes less than they did during other nights in the lunar cycle.",
-    url:
-      "https://www.inquirer.com/science/snow-moon-2021-february-full-sleep-research-20210226.html",
-    urlToImage:
-      "https://www.inquirer.com/resizer/PoH87pww1vaUBCLr2VUpHNiJFG0=/760x507/smart/cloudfront-us-east-1.images.arcpublishing.com/pmn/677YFVWPXNGJBHEE57EIY22DJU.jpg",
-    publishedAt: "2021-02-26T00:25:05Z",
-    content: null
-  },
-  {
-    source: { id: "cnn", name: "CNN" },
-    author: "Esha Mitra and Julia Hollingsworth, CNN",
-    title:
-      "India Covaxin: Some Bhopal slum residents thought they were being vaccinated against Covid-19 but were part of clinical trials - CNN ",
-    description:
-      "Experts argue that the experience of some participants in a Phase 3 clinical trial in India appear to violate the country's clinical trial rules that require informed consent.",
-    url:
-      "https://www.cnn.com/2021/02/25/asia/india-vaccine-trials-covid-ethics-intl-dst-hnk/index.html",
-    urlToImage:
-      "https://cdn.cnn.com/cnnnext/dam/assets/210222082358-20212701-india-covid-vaccine-1-gfx-super-tease.jpg",
-    publishedAt: "2021-02-26T00:17:00Z",
-    content:
-      "<li></li><li>Oct.23, 2020Bharat Biotech receives Drugs Controller General of India approval to conduct Phase 3 clinical trials with 26,000 participants for Covaxin.\r\n</li><li>Nov.16, 2020Covaxin's Ph… [+1271 chars]"
-  },
-  {
-    source: { id: "the-washington-post", name: "The Washington Post" },
-    author: "Adam Taylor",
-    title:
-      "Massacre by Eritrean troops in Ethiopia’s Tigray region may constitute crime against humanity, Amnesty says - The Washington Post",
-    description:
-      'Eritrean troops “went on a rampage and systematically killed hundreds of civilians in cold blood."',
-    url:
-      "https://www.washingtonpost.com/world/2021/02/25/tigray-eritrea-ethiopia-crime-against-humanity/",
-    urlToImage:
-      "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PZDHGFDRXEI6XBSRNUYJD2WGH4.jpg&w=1440",
-    publishedAt: "2021-02-26T00:01:00Z",
-    content:
-      "Eritrean troops went on a rampage and systematically killed hundreds of civilians in cold blood, which appears to constitute crimes against humanity, said Deprose Muchena, Amnesty Internationals dire… [+5911 chars]"
-  },
-  {
-    source: { id: null, name: "Los Angeles Times" },
-    author: "David Lauter, Eli Stokols",
-    title:
-      "Fealty to Trump is the one litmus test at conservative conference - Los Angeles Times",
-    description:
-      "GOP officials disagree intensely over the party's future. But no sign of debate will be visible when conservatives gather this weekend for CPAC's festival of Trump.",
-    url:
-      "https://www.latimes.com/politics/story/2021-02-25/cpac-trump-loyalty-test",
-    urlToImage:
-      "https://ca-times.brightspotcdn.com/dims4/default/425e564/2147483647/strip/true/crop/2048x1075+0+38/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7a%2F91%2F97352c32c415926c4aa5f4ee1491%2Fla-1551734852-ueq1voif9v-snap-image",
-    publishedAt: "2021-02-25T23:55:54Z",
-    content:
-      "Among GOP elected officials and operatives, intense disagreements rage over the future of their party. But no sign of dissent will be visible this weekend when conservatives gather for an annual conf… [+7549 chars]"
-  },
-  {
-    source: { id: null, name: "Investor's Business Daily" },
-    author: "Investor's Business Daily",
-    title:
-      "Dow Jones Futures: Market Rally Breaks Support As Treasury Yields Soar; Nvidia, Teladoc, Tesla Flash Sell Signals - Investor's Business Daily",
-    description:
-      "Dow Jones futures: The market rally broke through key support as Treasury yields spiked. Nvidia and Tesla flashed sell signals.",
-    url:
-      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-rally-breaks-treasury-yields-soar-nvidia-teladoc-tesla-sell-signals/",
-    urlToImage:
-      "https://www.investors.com/wp-content/uploads/2017/05/stock-bear-7-adobe.jpg",
-    publishedAt: "2021-02-25T23:48:00Z",
-    content:
-      "Dow Jones futures rose slightly Thursday night, along with S&amp;P 500 futures. Nasdaq futures edged lower. The stock market rally suffered heavy losses Thursday as 10-year Treasury yields continued … [+8133 chars]"
-  },
-  {
-    source: { id: null, name: "WMUR Manchester" },
-    author: "Jennifer Crompton",
-    title:
-      "Common vaccine side effect prompts undue breast cancer worries, experts say - WMUR Manchester",
-    description:
-      "New recommendations about when to schedule annual mammogram screenings are being made because of a common side effect of the COVID-19 vaccine.",
-    url:
-      "https://www.wmur.com/article/common-vaccine-side-effect-prompts-undue-breast-cancer-worries-experts-say/35636691",
-    urlToImage:
-      "https://kubrick.htvapps.com/vidthumb/f2e734cb-342b-4e49-88c7-9034446d81b5/f2e734cb-342b-4e49-88c7-9034446d81b5_image.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
-    publishedAt: "2021-02-25T23:39:00Z",
-    content:
-      "PORTSMOUTH, N.H. —New recommendations about when to schedule annual mammogram screenings are being made because of a common side effect of the COVID-19 vaccine.\r\nEnlarged lymph nodes are triggering u… [+1912 chars]"
-  }
-];
-
 export const RECENT_NEWS = [
   {
-    source: { id: null, name: "The Guardian" },
-    author: "Dan Sabbagh",
+    source: { id: "cnn", name: "CNN" },
+    author: "Ashley Strickland",
     title:
-      "Nato to put 300,000 troops on high alert in response to Russia threat - The Guardian",
+      "Earth's driest place shows why it may be harder than we thought to find signs of life on Mars - CNN",
     description:
-      "Alliance’s leader predicts this week’s summit will agree its most significant transformation in a generation",
+      "Finding potential evidence of life on Mars may be more difficult than expected, according to new research. Researchers tested scientific instruments used on Mars in Chile's Atacama Desert, and the tools struggled to find existing signs of life.",
     url:
-      "https://amp.theguardian.com/world/2022/jun/27/nato-300000-troops-high-alert-russia-threat-ukraine",
+      "https://www.cnn.com/2023/02/21/world/atacama-desert-life-mars-scn/index.html",
     urlToImage:
-      "https://i.guim.co.uk/img/media/99ae7a5f01197ce4550003268e0adb189c6e61b5/0_306_7836_4702/master/7836.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d9470d9b465e3edf805f5c1ebcc1b628",
-    publishedAt: "2022-06-27T22:12:00Z",
+      "https://media.cnn.com/api/v1/images/stellar/prod/230221145905-01-chile-atacama-desert-mars-experiment.jpg?c=16x9&q=w_800,c_fill",
+    publishedAt: "2023-02-21T23:38:00Z",
     content:
-      "Natos secretary general has said this weeks Madrid summit will agree the alliances most significant transformation for a generation, putting 300,000 troops at high readiness in response to Russias in… [+4684 chars]"
+      "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\r\nFinding potential evidence of life on Mars may be more… [+5226 chars]"
   },
   {
-    source: { id: null, name: "CNBC" },
-    author: "Yun Li",
+    source: { id: null, name: "Live Science" },
+    author: "Robert Lea",
     title:
-      "Stock index futures inch higher following a losing day Monday - CNBC",
+      "'Runaway' black hole the size of 20 million suns found speeding through space with a trail of newborn stars behind it - Livescience.com",
     description:
-      "Investors will monitor more data on Tuesday, including June consumer confidence and April home prices to gauge the health of the economy.",
+      'Astronomers have discovered a "runaway" black hole, potentially the first observational evidence that supermassive black holes can be ejected from their host galaxies.',
     url:
-      "https://www.cnbc.com/2022/06/27/stock-market-futures-open-to-close-news.html",
+      "https://www.livescience.com/runaway-black-hole-the-size-of-20-million-suns-found-speeding-through-space-with-a-trail-of-newborn-stars-behind-it",
     urlToImage:
-      "https://image.cnbcfm.com/api/v1/image/107081243-TRADERS-OB-Photo-20220627-DN-112-PRESS6.jpg?v=1656352040&w=1920&h=1080",
-    publishedAt: "2022-06-27T22:03:17Z",
+      "https://cdn.mos.cms.futurecdn.net/thshV6AHvcsxSFxP6qHfzH-1200-80.jpg",
+    publishedAt: "2023-02-21T23:13:32Z",
     content:
-      "Stock futures rose slightly in overnight trading Monday following a losing day as investors prepare to rebalance their portfolios with the end of the quarter fast approaching.\r\nFutures on the Dow Jon… [+1973 chars]"
+      "Astronomers have spotted a runaway supermassive black hole, seemingly ejected from its home galaxy and racing through space with a chain of stars trailing in its wake. \r\nAccording to the team's resea… [+9391 chars]"
+  },
+  {
+    source: { id: "ars-technica", name: "Ars Technica" },
+    author: "Beth Mole",
+    title:
+      "Unvaccinated more likely to have heart attack, stroke after COVID, study finds - Ars Technica",
+    description: "Being fully vaccinated reduced the risk by about 41 percent.",
+    url:
+      "https://arstechnica.com/science/2023/02/unvaccinated-more-likely-to-have-heart-attack-stroke-after-covid-study-finds/",
+    urlToImage:
+      "https://cdn.arstechnica.net/wp-content/uploads/2023/02/GettyImages-1246323573-760x380.jpeg",
+    publishedAt: "2023-02-21T22:33:57Z",
+    content:
+      "Enlarge/ A medical director in Germany sits in front of a monitor showing the real-time data of a patient with a heart attack. \r\n52 with \r\nA bout of COVID-19 is known to increase a person's long-term… [+2509 chars]"
+  },
+
+  {
+    source: {
+      id: "cbs-news",
+      name: "CBS News"
+    },
+    author: "Jon LaPook",
+    title: "New method revolutionizes heart transplants - CBS News",
+    description:
+      'A procedure called "donation after circulatory death" could increase the number of donor hearts available.',
+    url:
+      "https://www.cbsnews.com/news/heart-transplants-donation-after-circulatory-death/",
+    urlToImage:
+      "https://assets2.cbsnewsstatic.com/hub/i/r/2023/02/16/ee95af79-9f73-4a09-98d8-b1f809aced21/thumbnail/1200x630/258190121a64897a09754dd288ce9931/1.png",
+    publishedAt: "2023-02-16T00:07:42Z",
+    content:
+      "It was moments with his kids that made Jason Banner decide to take a chance on a new method of heart transplantation. \r\nThe single father of two discovered in 2005 he had a genetic heart condition. L… [+1793 chars]"
   },
   {
     source: { id: "reuters", name: "Reuters" },
@@ -337,21 +75,6 @@ export const RECENT_NEWS = [
     publishedAt: "2022-06-27T19:58:00Z",
     content:
       "KREMENCHUK, Ukraine, June 27 (Reuters) - Two Russian missiles slammed into a crowded shopping centre in the central Ukrainian city of Kremenchuk on Monday, killing at least 13 people and wounding 50,… [+4321 chars]"
-  },
-  {
-    source: { id: "cbs-news", name: "CBS News" },
-    author: "Caroline Linton",
-    title:
-      "House January 6 committee announces last-minute hearing to take place Tuesday, June 28, 2022 - CBS News",
-    description:
-      'The hearing will be held at 1 p.m. ET. The committee said it will "present recently obtained evidence and receive witness testimony."',
-    url:
-      "https://www.cbsnews.com/news/house-january-6-committee-hearing-june-28-2022/",
-    urlToImage:
-      "https://assets2.cbsnewsstatic.com/hub/i/r/2022/06/16/a5158da2-2d49-44f0-9c14-496a2c01e364/thumbnail/1200x630g2/012d865e35254831d9577c6594169cf1/gettyimages-1241346882.jpg",
-    publishedAt: "2022-06-27T18:53:00Z",
-    content:
-      "The House Jan. 6 committee unexpectedly announced Monday that it will hold a hearing on Tuesday, June 28. The move comes days after the committee said it would not be holding more hearings until July… [+2853 chars]"
   },
   {
     source: { id: null, name: "MarketWatch" },
@@ -426,7 +149,6 @@ export const RECENT_NEWS = [
     content:
       "OMAHA, Neb. —The Douglas County Health Department confirmed its first case of monkeypox Monday. \r\nDCHD said the patient is a man in his 30s with a history of international travel. \r\nHe is home isolat… [+585 chars]"
   },
-
   {
     source: { id: "the-washington-post", name: "The Washington Post" },
     author: "Hamza Shaban",
@@ -440,5 +162,174 @@ export const RECENT_NEWS = [
     publishedAt: "2022-06-27T19:26:05Z",
     content:
       "Placeholder while article actions load\r\nThe crypto broker Voyager Digital issued a notice of default Monday to the hedge fund Three Arrows Capital for failing to make the required payments on a loan … [+4957 chars]"
-  }
+  },
+  [
+    {
+      source: { id: "cnn", name: "CNN" },
+      author:
+        "Rob Picheta, Anna Chernova, Nathan Hodge, Lauren Kent, Radina Gigova",
+      title:
+        "Putin pulls back from last remaining nuclear arms control pact with the US - CNN",
+      description:
+        "Russian President Vladimir Putin said he is suspending his country's participation in the New START nuclear arms reduction treaty with the United States, imperiling the last remaining pact that regulates the world's two largest nuclear arsenals.",
+      url:
+        "https://www.cnn.com/2023/02/21/europe/putin-russia-new-start-nuclear-pact-intl/index.html",
+      urlToImage:
+        "https://media.cnn.com/api/v1/images/stellar/prod/230221123648-04-putin-address-022123.jpg?c=16x9&q=w_800,c_fill",
+      publishedAt: "2023-02-22T02:20:00Z",
+      content:
+        "Russian President Vladimir Putin said he is suspending his countrys participation in the New START nuclear arms reduction treaty with the United States, imperiling the last remaining pact that regula… [+4407 chars]"
+    },
+    {
+      source: { id: null, name: "BBC News" },
+      author: "https://www.facebook.com/bbcnews",
+      title:
+        "Winds lash Madagascar's coast as Cyclone Freddy makes landfall - BBC",
+      description:
+        "Gusts above130km/h (81mph) cause a storm surge, ripping off roofs and killing at least one person.",
+      url: "https://www.bbc.com/news/world-africa-64727392",
+      urlToImage:
+        "https://ichef.bbci.co.uk/news/1024/branded_news/ED44/production/_128704706_c877056698142259dd145eb4fe622241a5ae0c07.jpg",
+      publishedAt: "2023-02-22T01:07:23Z",
+      content:
+        "At least one person has died after a tropical cyclone battered Madagascar's east coast, with heavy rain and powerful winds tearing roofs off houses and triggering a storm surge.\r\nCyclone Freddy made … [+2322 chars]"
+    },
+    {
+      source: { id: null, name: "The Guardian" },
+      author: "Guardian staff reporter",
+      title:
+        "Boss of Wagner mercenary group accuses Russian army chiefs of 'treason' - The Guardian",
+      description:
+        "Yevgeny Prigozhin says Moscow is refusing to supply the group with munitions and other supplies in Ukraine",
+      url:
+        "https://www.theguardian.com/world/2023/feb/22/wagner-mercenary-group-yevgeny-prigozhin-russia-army-chiefs-treason-ammunition-ukraine-war",
+      urlToImage:
+        "https://i.guim.co.uk/img/media/42af08e108ca70a869a563eab83412ac18e8416f/0_57_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4ebf440489f5696c63af553e70527b5b",
+      publishedAt: "2023-02-22T00:39:00Z",
+      content:
+        "The head of Russias Wagner mercenary group has said Moscows military chiefs are refusing to supply the group with munitions and are seeking to destroy it, accusing them of treason, in an escalation o… [+2930 chars]"
+    },
+    {
+      source: { id: null, name: "MarketWatch" },
+      author: "Associated Press",
+      title:
+        "Tesla shareholders seek to void Elon Musk's $55 billion pay package - MarketWatch",
+      description:
+        "Delaware lawsuit claims compensation deal was product of sham negotiations with directors who were not independent of Musk",
+      url:
+        "https://www.marketwatch.com/story/tesla-shareholders-seek-to-void-elon-musks-55-billion-pay-package-fd743166",
+      urlToImage: "https://images.mktw.net/im-729406/social",
+      publishedAt: "2023-02-22T00:29:00Z",
+      content:
+        "WILMINGTON, Del. Attorneys for a Tesla shareholder urged a Delaware judge on Tuesday to invalidate a 2018 compensation package awarded by the companys board of directors to CEO Elon Musk that is pote… [+3301 chars]"
+    },
+    {
+      source: { id: "cbs-news", name: "CBS News" },
+      author: "Kathryn Watson, Stefan Becket, Kristin Brown",
+      title:
+        'Biden marks 1 year of war in Ukraine with major speech in Poland: "Kyiv stands strong" - CBS News',
+      description:
+        '"Ukraine will never be a victory for Russia — never," the president told a crowd of 30,000 in Warsaw.',
+      url:
+        "https://www.cbsnews.com/live-updates/ukraine-war-biden-russia-war-one-year-speech-poland/",
+      urlToImage:
+        "https://assets2.cbsnewsstatic.com/hub/i/r/2023/02/21/c9e75565-3bf8-42b8-9bea-9b58b6f6f746/thumbnail/1200x630/365897d1fa9f139af3d6b4ae72ad60e0/gettyimages-1247352502.jpg",
+      publishedAt: "2023-02-21T23:56:00Z",
+      content:
+        "President Biden hailed Ukraine's continued resilience against Russian aggression as a triumph of democracy over autocracy and reiterated Western allies' commitment to supporting Kyiv, delivering a ma… [+4926 chars]"
+    },
+    {
+      source: { id: "associated-press", name: "Associated Press" },
+      author: "John Seewer",
+      title:
+        "EPA orders Norfolk Southern to clean up toxic derailment - The Associated Press - en Español",
+      description:
+        "EAST PALESTINE, Ohio (AP) — The U.S. Environmental Protection Agency ordered Norfolk Southern on Tuesday to pay for the cleanup of the East Palestine, Ohio, train wreck and chemical release as federal regulators took charge of long-term recovery efforts and p…",
+      url:
+        "https://apnews.com/article/ohio-train-derailment-epa-61ff5fec89c452f4ff7f56b5b8b4e44e",
+      urlToImage:
+        "https://storage.googleapis.com/afs-prod/media/0544b5c8b2fb4947b591c64f4887784d/3000.webp",
+      publishedAt: "2023-02-21T23:48:21Z",
+      content:
+        "EAST PALESTINE, Ohio (AP) The U.S. Environmental Protection Agency ordered Norfolk Southern on Tuesday to pay for the cleanup of the East Palestine, Ohio, train wreck and chemical release as federal … [+5575 chars]"
+    },
+    {
+      source: { id: "cnn", name: "CNN" },
+      author: "Gayle Harrington",
+      title:
+        "Microsoft enters 10-year agreement with Nvidia and Nintendo in fight to save Activision deal - CNN",
+      description:
+        "Microsoft announced it has agreed to partnerships with Nvidia and Nintendo as it tries to convince European Union officials to approve its $69 billion purchase of Activision Blizzard — the company behind the popular game franchise Call of Duty.",
+      url:
+        "https://www.cnn.com/2023/02/21/tech/microsoft-nvidia-nintendo-activision/index.html",
+      urlToImage:
+        "https://media.cnn.com/api/v1/images/stellar/prod/230221180648-microsoft-nyc-restricted.jpg?c=16x9&q=w_800,c_fill",
+      publishedAt: "2023-02-21T23:41:00Z",
+      content:
+        "Microsoft announced it has agreed to partnerships with Nvidia and Nintendo as it tries to convince European Union officials to approve its $69 billion purchase of Activision Blizzard the company behi… [+1698 chars]"
+    },
+
+    {
+      source: { id: null, name: "CNBC" },
+      author: "Lauren Feiner",
+      title:
+        "Supreme Court justices in Google case express hesitation about upending Section 230 - CNBC",
+      description:
+        "Justices across the ideological spectrum expressed concern with breaking the delicate balance set by Section 230 in their ruling.",
+      url:
+        "https://www.cnbc.com/2023/02/21/supreme-court-justices-in-google-case-hesitate-to-upend-section-230.html",
+      urlToImage:
+        "https://image.cnbcfm.com/api/v1/image/107197477-1676990771852-gettyimages-1247348211-AFP_339Q3FR.jpeg?v=1677017947&w=1920&h=1080",
+      publishedAt: "2023-02-21T22:19:07Z",
+      content:
+        "Supreme Court Justices voiced hesitation on Tuesday about upending a key legal shield that protects tech companies from liability for their users' posts, and for how the companies moderate messages o… [+7094 chars]"
+    },
+    {
+      source: { id: null, name: "CNBC" },
+      author: "Hakyung Kim, Fred Imbert",
+      title:
+        "Dow closes nearly 700 points lower in broad selloff, as all indexes cap their worst day of 2023: Live updates - CNBC",
+      description:
+        "The Dow Jones Industrial Average at one point dropped 700 points, or 2.1%.",
+      url:
+        "https://www.cnbc.com/2023/02/20/stock-market-today-live-updates.html",
+      urlToImage:
+        "https://image.cnbcfm.com/api/v1/image/107197771-1677013633721-aa9_img_100_99_112_1957665_1000-1677013543660.jpg?v=1677013972&w=1920&h=1080",
+      publishedAt: "2023-02-21T20:09:40Z",
+      content:
+        "U.S. stocks dropped Tuesday as higher rates continue to pressure market sentiment, and the latest batch of retail earnings raised concerns about the state of the consumer.\r\nThe Dow Jones Industrial A… [+1877 chars]"
+    },
+    {
+      source: { id: null, name: "The Guardian" },
+      author: "Linda Geddes",
+      title:
+        "‘Horrific’ form of mpox found to affect people with advanced HIV - The Guardian",
+      description:
+        "Form of virus, formerly known as monkeypox, fatal in about 15% of cases among immunosuppressed people",
+      url:
+        "https://www.theguardian.com/world/2023/feb/21/horrific-form-of-mpox-found-to-affect-people-with-advanced-hiv",
+      urlToImage:
+        "https://i.guim.co.uk/img/media/4b600c9f574c9591cf03a73440cf6bcac90c9045/0_1_5392_3235/master/5392.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=942af704bf088664ff564974b9305241",
+      publishedAt: "2023-02-21T20:04:00Z",
+      content:
+        "A severe and horrific form of mpox has been identified in immunosuppressed people living with HIV, which appears to be deadly in about 15% of cases.\r\nSolid organ transplant recipients, and those with… [+4579 chars]"
+    },
+    {
+      source: {
+        id: null,
+        name: "Space.com"
+      },
+      author: "Robert Lea",
+      title:
+        "James Webb Space Telescope opens Pandora's Cluster in stunning image with help from Einstein (video) - Space.com",
+      description:
+        'The powerful space telescope was able to see three clusters of galaxies in the region, also known as Abell 2744, merging to form a "mega cluster."',
+      url: "https://www.space.com/james-webb-space-telescope-pandoras-cluster",
+      urlToImage:
+        "https://cdn.mos.cms.futurecdn.net/YA9xtbbzsYs5cMi3DnphQL-1200-80.jpg",
+      publishedAt: "2023-02-15T23:00:52Z",
+      content:
+        "In Greek mythology, Pandora's curiosity leads her to open a container that releases all of the evils and hardships that now exist in the world.\r\nLet's hope the James Webb Space Telescope (JWST) didn'… [+4905 chars]"
+    }
+  ]
 ];
